@@ -37,7 +37,6 @@ def draw?(board)
       if won?(board)
          return board[won?(board)[0]]
       end
-   end
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
   end
